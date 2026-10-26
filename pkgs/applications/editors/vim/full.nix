@@ -48,6 +48,7 @@
   darwinSupport ? config.vim.darwin or false, # Enable Darwin support
   ftNixSupport ? config.vim.ftNix or true, # Add nix indentation support from vim-nix (not needed for basic syntax highlighting)
   sodiumSupport ? config.vim.sodium or true, # Enable sodium based encryption
+  pangoSupport ? config.vim.pango or false, # Enable pango based hardcopy support
 }:
 
 let
